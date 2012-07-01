@@ -74,7 +74,7 @@ set autoreload
 
 ## Changelog
 ### 0.1.0
-* Support for `debugger` gem (Kai Middleton) #1
+* Support for `debugger` gem (Kai Middleton) [#1](https://github.com/davejamesmiller/ruby-debug-passenger/pull/1)
 
 ### 0.0.1
 * Initial release
