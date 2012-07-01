@@ -72,5 +72,12 @@ set autoreload
 * [RailsCast #54](http://railscasts.com/episodes/54-debugging-with-ruby-debug)
   (the setup steps are out of date, but it shows why ruby-debug can be useful)
 
+## Changelog
+### 0.1.0
+* Support for `debugger` gem (Kai Middleton) #1
+
+### 0.0.1
+* Initial release
+
 ## License
 MIT License - see `LICENSE.txt`.

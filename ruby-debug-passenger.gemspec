@@ -10,10 +10,11 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/davejamesmiller/ruby-debug-passenger"
   s.summary     = %q{Adds a 'rake debug' task to Rails to restart Phusion Passenger with a debugger connected}
   s.description = <<-EOF
-    Adds an initializer that loads 'ruby-debug' and starts the debugger, and a
-    'rake debug' task that tells Phusion Passenger to restart with debugging
-    enabled. This makes it possible to do interactive debugging when using the
-    Phusion Passenger Apache module - it does not require the standalone server.
+    Adds an initializer that loads 'ruby-debug' or 'debugger' and starts the
+    debugger, and a 'rake debug' task that tells Phusion Passenger to restart
+    with debugging enabled. This makes it possible to do interactive debugging
+    when using the Phusion Passenger Apache module - it does not require the
+    standalone server.
   EOF
   s.license     = 'MIT'
 
