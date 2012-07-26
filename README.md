@@ -69,8 +69,9 @@ set autoreload
 
 ## Recommended reading
 * [ruby-debug documentation](http://bashdb.sourceforge.net/ruby-debug.html)
-* [RailsCast #54](http://railscasts.com/episodes/54-debugging-with-ruby-debug)
-  (the setup steps are out of date, but it shows why ruby-debug can be useful)
+* [RailsCast #54](http://railscasts.com/episodes/54-debugging-with-ruby-debug),
+  or the [revised version](http://railscasts.com/episodes/54-debugging-ruby-revised)
+  if you're a Pro subscriber.
 
 ## Changelog
 ### 0.1.0
