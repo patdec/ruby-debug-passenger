@@ -66,15 +66,6 @@ add `<% debugger %>` or `<% byebug %>` instead.
 Run `rake debug` to restart Phusion Passenger and connect to the debugger. (You
 will be prompted to reload the app in your browser.)
 
-## Suggested configuration
-I recommend putting this in your `~/.rdebugrc`:
-
-```ruby
-set autolist
-set autoeval
-set autoreload
-```
-
 ## Recommended reading
 * [ruby-debug documentation](http://bashdb.sourceforge.net/ruby-debug.html)
 * [RailsCast #54](http://railscasts.com/episodes/54-debugging-with-ruby-debug),
