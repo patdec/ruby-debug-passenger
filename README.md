@@ -73,6 +73,9 @@ will be prompted to reload the app in your browser.)
   if you're a Pro subscriber.
 
 ## Changelog
+### 0.2.0
+* Support for `byebug` gem (David Rodríguez)
+
 ### 0.1.0
 * Support for `debugger` gem (Kai Middleton) [#1](https://github.com/davejamesmiller/ruby-debug-passenger/pull/1)
 
