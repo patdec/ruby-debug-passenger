@@ -9,47 +9,28 @@ Thanks to
 I was able to do that, and I decided to make it into a reusable Gem.
 
 ## Requirements
-This is been tested on:
 
-* Rails 3.2.2
-* Ruby (MRI) 1.9.2
-* Old Ruby Debugger 0.11.6
-* Phusion Passenger 3.0.11
-
-and
-
-* Rails 3.0.14
-* Ruby (MRI) 1.9.3-p125
-* Debugger gem 1.1.4
-* Phusion Passenger 3.0.12 and 3.0.13
-
-and
-
-* Rails 3.2.14
-* Ruby (MRI) 2.0.0-p247
-* Byebug 1.8.0
-* Passenger 4.0.10
-
-It will probably work on other versions, but not on Rails 2.
-
-It may or may not work on Ruby 1.8.
+* Ruby on Rails 3.0+
+* Ruby 1.9+ (untested on 1.8 but it may work)
+* Ruby Debug / Debugger / Byebug
+* Phusion Passenger
 
 ## Installation
-Add this to your `Gemfile` if you are on Ruby 2.0
+Add this to your `Gemfile` if you are on Ruby 2.0:
 
 ```ruby
 gem "byebug"
 gem "ruby-debug-passenger"
 ```
 
-or this if you are on Ruby 1.9
+Or this if you are on Ruby 1.9:
 
 ```ruby
 gem "debugger"
 gem "ruby-debug-passenger"
 ```
 
-or this if you are on Ruby 1.8, but it hasn't been tested!
+Or this if you are on Ruby 1.8 (but it hasn't been tested!):
 
 ```ruby
 gem "ruby-debug"
