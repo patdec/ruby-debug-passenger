@@ -59,8 +59,8 @@ gem "ruby-debug-passenger"
 Then run `bundle install` to install it.
 
 ## Usage
-Add `debugger` (for rubies under 2.0) or `byebug` (for rubies from 2.0) anywhere
-in your Ruby code that you want to invoke the debugger. Or in an ERB template,
+Add `debugger` (Ruby 1.9 or lower) or `byebug` (Ruby 2.0+) anywhere
+in your Ruby code that you want to invoke the debugger. Or in an ERB template
 add `<% debugger %>` or `<% byebug %>` instead.
 
 Run `rake debug` to restart Phusion Passenger and connect to the debugger. (You
