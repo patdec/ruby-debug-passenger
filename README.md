@@ -1,5 +1,11 @@
 # ruby-debug-passenger
 
+---
+
+**Warning:** This project is no longer maintained and [may not work](https://github.com/davejamesmiller/ruby-debug-passenger/issues/3) any more.
+
+---
+
 ## Background
 I wanted to use Phusion Passenger as an Apache module (not standalone) but still
 be able to use the interactive Ruby debugger.
