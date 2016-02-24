@@ -1,4 +1,5 @@
 require "ruby-debug-passenger/version"
+require 'byebug'
 require "rails"
 
 module RubyDebugPassenger
