@@ -2,12 +2,11 @@ desc "Restart the app with debugging enabled, then launch the debugger"
 task :debug do
 
   begin
-    require 'byebug/remote'
     require 'byebug/core'
   rescue LoadError
     puts "'byebug' gem must be present for this task to work"
     exit 1
-  end if RUBY_VERSION.start_with?('2.0')
+  end if RUBY_VERSION.start_with?('2.')
 
   begin
     require 'debugger'
