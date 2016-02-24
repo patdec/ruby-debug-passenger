@@ -2,6 +2,7 @@ desc "Restart the app with debugging enabled, then launch the debugger"
 task :debug do
 
   begin
+    require 'byebug/remote'
     require 'byebug/core'
   rescue LoadError
     puts "'byebug' gem must be present for this task to work"
